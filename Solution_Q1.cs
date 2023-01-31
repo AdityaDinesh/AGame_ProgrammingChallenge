@@ -5,7 +5,7 @@
 
 class Solution_Q1
 {
-    // Finds and returns the smallest positive integer from a given array
+    // Finds and returns the smallest positive integer not present in the given array
     private static int Solution(int[] pA)
     {
         // Transfer array data to hashset to remove duplication and accessing values faster
@@ -43,6 +43,6 @@ class Solution_Q1
         }
 
         int aSmallPosInt = Solution(aA);
-        Console.WriteLine("The smallest positive integer is " + aSmallPosInt);
+        Console.WriteLine("The smallest positive integer, not present in the array is " + aSmallPosInt);
     }
 }
